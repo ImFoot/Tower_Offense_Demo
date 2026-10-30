@@ -19,12 +19,16 @@ at both road forks before releasing the wave. The planning helper text now fits
 above the Release button. Send-with links can target any displayed group. Embedded
 fonts supply arrows, hearts and other UI symbols without relying on device fonts.
 
-Build 7 adds **Saltworks 09** from PR #7, with its original V1 controls and new
+Build 8 updates **Saltworks 09** from PR #7, with one shared V1 UI across all maps and new
 terrain, troops and buildings. Select it through **Maps**. Saltworks keeps its
 own authored rules: 160 arrivals in five waves, two entrances and a shared coast,
 six group slots growing to eight, at most three groups per class, and all six
 classes in its loadout. New defenses occupy seven plots over the five waves.
-Choose an entrance and complete route for every group before launching.
+Choose each group's road with the numbered badges on the map or the matching
+buttons below it. Saltworks uses **1A / 1B**; Mossgate uses **1A / 1B** and
+**2A / 2B**. The road determines the exit automatically, with no route dropdowns.
+Switching maps keeps the same command controls while updating the map, troop
+art, labels, objective strip and recruitment sizes. Existing meadow limits remain.
 Saltworks progress is saved separately. **Maps** returns to any mission.
 
 Space: launch/pause · N: next batch · F: speed · R: ranges · M: Saltworks mute.
