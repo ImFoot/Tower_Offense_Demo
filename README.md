@@ -6,7 +6,11 @@ Two maps, four creature types, and three waves per map. Command the attackers, a
 their release order, and remove all 20 gate hearts. Use full screen for the
 best view. Desktop mouse and keyboard are the primary target.
 
-Build 4 includes updated Sunmeadow Trail art and the second map, Mossgate Reach.
+Build 5 adds a translucent troop loadout overlay to both maps. Choose one to
+three of the four available classes before starting an assault. The selection
+stays locked across its three waves; use **Loadout** to review it, or restart
+the map to choose again. Troops outside the selected loadout cannot recruit or evolve.
+The demo includes updated Sunmeadow Trail art and the second map, Mossgate Reach.
 Both maps allow three groups per wave, with at most two groups of one troop type.
 Use **Maps** to choose a mission. On Mossgate, select each group and choose A or B
 at both road forks before releasing the wave. The planning helper text now fits

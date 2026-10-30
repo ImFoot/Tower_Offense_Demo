@@ -21,8 +21,8 @@
 <body>
   <header><div class="brand">TOWER OFFENSE<div class="title">Crystal Meadow <span style="color:#a5bab0;font-size:13px;font-weight:400">/ browser demo</span></div></div><button id="fullscreen" type="button">Full screen ↗</button></header>
   <p id="mobile">For the best view, play on a desktop or tablet in landscape and use full screen.</p>
-  <main><div class="stage" id="stage"><iframe id="game" src="game-v4.html" title="Tower Offense: Crystal Meadow game" allow="fullscreen; autoplay" allowfullscreen></iframe></div></main>
-  <footer><p><span class="keys">Space</span> launch / pause · <span class="keys">N</span> next batch · <span class="keys">F</span> speed · <span class="keys">R</span> show ranges<br>Use Maps to choose Sunmeadow Trail or Mossgate Reach. Remove all 20 gate hearts in three waves.</p><p>Two maps · Four troop types<br>Three groups per wave · Maximum two of one type.</p></footer>
+  <main><div class="stage" id="stage"><iframe id="game" src="game-v5.html" title="Tower Offense: Crystal Meadow game" allow="fullscreen; autoplay" allowfullscreen></iframe></div></main>
+  <footer><p><span class="keys">Space</span> launch / pause · <span class="keys">N</span> next batch · <span class="keys">F</span> speed · <span class="keys">R</span> show ranges<br>Choose up to three classes in your map loadout. Use Maps to choose Sunmeadow Trail or Mossgate Reach.</p><p>Two maps · Four troop types<br>Three groups per wave · Maximum two of one type.</p></footer>
   <script>
     const stage=document.getElementById('stage'), game=document.getElementById('game'), button=document.getElementById('fullscreen');
     button.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(stage.requestFullscreen)await stage.requestFullscreen();else{location.href=game.src;return;}game.focus();}catch{location.href=game.src;}});
