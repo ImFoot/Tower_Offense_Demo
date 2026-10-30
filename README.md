@@ -1,13 +1,16 @@
-# Tower Offense — Sunmeadow Trail
+# Tower Offense — Crystal Meadow
 
 Play the browser demo at https://imfoot.github.io/Tower_Offense_Demo/.
 
-One map, four creature types, and three waves. Command the attackers, arrange
+Two maps, four creature types, and three waves per map. Command the attackers, arrange
 their release order, and remove all 20 gate hearts. Use full screen for the
 best view. Desktop mouse and keyboard are the primary target.
 
-Build 3 includes the latest three-group-per-wave limit, a maximum of two groups
-of one troop type, and send-with links to any displayed group position. Embedded
+Build 4 includes updated Sunmeadow Trail art and the second map, Mossgate Reach.
+Both maps allow three groups per wave, with at most two groups of one troop type.
+Use **Maps** to choose a mission. On Mossgate, select each group and choose A or B
+at both road forks before releasing the wave. The planning helper text now fits
+above the Release button. Send-with links can target any displayed group. Embedded
 fonts supply arrows, hearts and other UI symbols without relying on device fonts.
 
 Space: launch/pause · N: next batch · F: speed · R: ranges.
