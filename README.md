@@ -1,25 +1,33 @@
-# Tower Offense — Crystal Meadow
+# Tower Offense — Crystal Meadow + Saltworks
 
 Play the browser demo at https://imfoot.github.io/Tower_Offense_Demo/.
 
-Two maps, six troop classes, and three waves per map. Command the attackers, arrange
-their release order, and remove all 20 gate hearts. Use full screen for the
+Three maps and six troop classes. Command the attackers and arrange their
+release order. Use full screen for the
 best view. Desktop mouse and keyboard are the primary target.
 
-Build 6 includes all six classes in the translucent troop loadout overlay. Choose one to
+The meadow maps include all six classes in the translucent troop loadout overlay. Choose one to
 three classes before starting an assault: Crystal Bulwark, Flux Fox, Prism Ranger,
 Void Ray, Runebinder or Lifewarden. The selection
 stays locked across its three waves; use **Loadout** to review it, or restart
 the map to choose again. The recruitment area shows only your selected classes.
 Troops outside the selected loadout cannot recruit or evolve.
-The demo includes updated Sunmeadow Trail art and the second map, Mossgate Reach.
-Both maps allow three groups per wave, with at most two groups of one troop type.
+Sunmeadow Trail and Mossgate Reach have three waves and 20 exit hearts.
+These two maps allow three groups per wave, with at most two groups of one troop type.
 Use **Maps** to choose a mission. On Mossgate, select each group and choose A or B
 at both road forks before releasing the wave. The planning helper text now fits
 above the Release button. Send-with links can target any displayed group. Embedded
 fonts supply arrows, hearts and other UI symbols without relying on device fonts.
 
-Space: launch/pause · N: next batch · F: speed · R: ranges.
+Build 7 adds **Saltworks 09** from PR #7, with its original V1 controls and new
+terrain, troops and buildings. Select it through **Maps**. Saltworks keeps its
+own authored rules: 160 arrivals in five waves, two entrances and a shared coast,
+six group slots growing to eight, at most three groups per class, and all six
+classes in its loadout. New defenses occupy seven plots over the five waves.
+Choose an entrance and complete route for every group before launching.
+Saltworks progress is saved separately. **Maps** returns to any mission.
+
+Space: launch/pause · N: next batch · F: speed · R: ranges · M: Saltworks mute.
 
 This repository contains only the exported playable demo and its browser
 runtime. Game development source is maintained separately. All game art is

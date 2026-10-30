@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#142d31">
-  <meta name="description" content="Command the attackers in Tower Offense. Choose up to three of six troop classes and play Sunmeadow Trail and Mossgate Reach.">
-  <title>Tower Offense · Crystal Meadow</title>
+  <meta name="description" content="Command the attackers in Tower Offense. Play Sunmeadow Trail, Mossgate Reach and the new five-wave Saltworks 09 assault.">
+  <title>Tower Offense · Crystal Meadow + Saltworks</title>
   <style>
     *{box-sizing:border-box}body{margin:0;background:#0d2024;color:#f2dfb0;font:15px system-ui,sans-serif;min-height:100vh}
     header,footer{max-width:1600px;margin:auto;padding:18px 24px;display:flex;gap:16px;align-items:center;justify-content:space-between}
@@ -19,10 +19,10 @@
   </style>
 </head>
 <body>
-  <header><div class="brand">TOWER OFFENSE<div class="title">Crystal Meadow <span style="color:#a5bab0;font-size:13px;font-weight:400">/ browser demo</span></div></div><button id="fullscreen" type="button">Full screen ↗</button></header>
+  <header><div class="brand">TOWER OFFENSE<div class="title">Crystal Meadow + Saltworks <span style="color:#a5bab0;font-size:13px;font-weight:400">/ browser demo</span></div></div><button id="fullscreen" type="button">Full screen ↗</button></header>
   <p id="mobile">For the best view, play on a desktop or tablet in landscape and use full screen.</p>
-  <main><div class="stage" id="stage"><iframe id="game" src="game-v6.html" title="Tower Offense: Crystal Meadow game" allow="fullscreen; autoplay" allowfullscreen></iframe></div></main>
-  <footer><p><span class="keys">Space</span> launch / pause · <span class="keys">N</span> next batch · <span class="keys">F</span> speed · <span class="keys">R</span> show ranges<br>Choose up to three classes in your map loadout. Use Maps to choose Sunmeadow Trail or Mossgate Reach.</p><p>Two maps · All six troop classes<br>Three groups per wave · Maximum two of one type.</p></footer>
+  <main><div class="stage" id="stage"><iframe id="game" src="game-v7.html" title="Tower Offense browser game" allow="fullscreen; autoplay" allowfullscreen></iframe></div></main>
+  <footer><p><span class="keys">Space</span> launch / pause · <span class="keys">N</span> next batch · <span class="keys">F</span> speed · <span class="keys">R</span> show ranges<br>Use Maps to choose Sunmeadow Trail, Mossgate Reach or Saltworks 09.</p><p>Three maps · All six troop classes<br>Meadows: 3 waves · Saltworks: 5 waves, 160 arrivals.</p></footer>
   <script>
     const stage=document.getElementById('stage'), game=document.getElementById('game'), button=document.getElementById('fullscreen');
     button.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(stage.requestFullscreen)await stage.requestFullscreen();else{location.href=game.src;return;}game.focus();}catch{location.href=game.src;}});
